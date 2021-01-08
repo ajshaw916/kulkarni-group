@@ -81,6 +81,8 @@ atoms.set_constraint(c)
 ```
 This will prevent the distance between atom 0 and atom 1 as well as the distance between atom 0 and atom 2 from changing.
 
+NOTE: FixAtoms can take a mask argument. This is BUGGY so be careful if you choose to do this. Using the indices argument should work instead.
+
 #### ASE GUI
 
 ASE GUI is used to visualize and manipulate atoms. It can even be used to visualize atoms on an HPC, but this is slow.
